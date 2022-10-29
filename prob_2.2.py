@@ -1,4 +1,9 @@
-
+'''
+Your task is to make a list, with the sum of a sequence of integers.
+The sequence is defined by 3 non-negative values: begin, end, step
+(inclusive).
+If begin value is greater than the end, print 0
+'''
 
 def sumList (Arr):
 

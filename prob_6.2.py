@@ -1,6 +1,9 @@
- 
+'''
+Write a function named data, which will accept 3 values: day, month, year. Will return true if
+such date exists in the calendar, false otherwise.
+'''
 
-def is_exists(d, m, y):
+def data(d, m, y):
     
     if 12 < m or 1 > m: 
 
@@ -34,6 +37,6 @@ def is_exists(d, m, y):
 day   = int(input('day: '))
 month = int(input('month: '))
 year  = int(input('year: '))
-print(is_exists(day, month, year))
+print(data(day, month, year))
 
  

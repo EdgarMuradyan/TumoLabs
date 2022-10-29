@@ -1,3 +1,7 @@
+'''
+Create a function that will take a HEX number and returns the binary equivalent (as a
+string).
+'''
  
 def HexToDecimal(Hex): 
     #print (Hex)

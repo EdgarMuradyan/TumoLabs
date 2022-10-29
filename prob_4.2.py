@@ -1,4 +1,11 @@
- 
+ '''
+ Your task is to print:
+
+    “yes, ascending” if a list is already sorted in ascending order
+    “yes, descending” if a list is already sorted in descending order
+    “no” if list is not sorted
+
+ '''
 def isAscending(Arr):
     
     for i in range(len(Arr) - 1):

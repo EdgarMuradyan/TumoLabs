@@ -1,4 +1,7 @@
-
+'''
+Write a Python program to create all possible strings by using &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, &#39;u&#39;. Use the characters
+exactly once.
+'''
 
 def generate_word(letters):
     n = len(letters)

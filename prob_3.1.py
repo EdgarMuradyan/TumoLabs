@@ -1,3 +1,9 @@
+'''
+Given a string and we need to reverse words of a given string
+Examples:
+Input : "Python is a programming language "
+Output : language programming a is Python
+'''
  
 string = input('input string: ')
 #stack for help to reverse string

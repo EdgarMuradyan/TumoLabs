@@ -1,4 +1,6 @@
-
+'''
+Create a Python program to repeat M characters of string N times.
+'''
 
 def repeat(string, index, N):
 

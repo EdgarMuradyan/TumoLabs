@@ -1,4 +1,6 @@
-
+'''
+Write a Python program to sort a list of elements using the bubble sort algorithm.
+'''
 
 # buble sort 
 def buble_sort(Arr):
@@ -32,9 +34,7 @@ def selection_sort(Arr):
 
         i += 1
 
- 
-
-
+  
 #quick sort 
 def partition(Arr, first, last):
     pivot = Arr[last]

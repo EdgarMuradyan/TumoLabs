@@ -1,4 +1,7 @@
-
+'''
+Get an input and insert in list and print a list of all the powers of 2 with the
+exponent ranging from 0 to n ( inclusive ).
+'''
 
 n = int(input('input: '))
 

@@ -1,5 +1,6 @@
-#parz e te voch
-
+'''
+Write a program that returns true if the number entered is prime, false otherwise.
+'''
  
 
 def is_prime(num):
