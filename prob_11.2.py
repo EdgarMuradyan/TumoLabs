@@ -13,7 +13,7 @@ def search_x(Arr, x):
 
 
 
-#binary search forck then Array is sorted
+#binary search worck then Array is sorted
 def binary_search(Arr, x, start, end):
     
     

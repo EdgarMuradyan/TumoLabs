@@ -1,11 +1,3 @@
-def search_word(word_list, word):
-    result = 0
-    for i in word_list:
-        if i == word:
-            result += 1
-
-    return result
-
 
 def create_dict(text):
     key_word = ""
