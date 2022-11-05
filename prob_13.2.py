@@ -8,13 +8,15 @@ def Yoda_styl(Istr):
        str_list.append(i)
        #print (i)
      
-   result = "a"
+   result = ""
    for i in range(len(str_list)):
-       print(str_list[i])
-       random.seed(i)
-       print(int(random.random()))
-       result.join(str_list[int(random.random())])
-
+       index = random.randint(0, len(str_list) - 1)
+       while str_list[index] == -1:
+           index = random.randint(0, len(str_list) - 1)
+       
+       result += str_list[index] + " "
+       str_list[index] = -1
+   
    
        
        
